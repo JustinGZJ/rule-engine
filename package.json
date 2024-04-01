@@ -1,0 +1,47 @@
+{
+  "name": "rule-engine",
+  "productName": "rule-engine",
+  "version": "1.0.0",
+  "description": "My Electron application description",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.3.1",
+    "@electron-forge/maker-deb": "^7.3.1",
+    "@electron-forge/maker-rpm": "^7.3.1",
+    "@electron-forge/maker-squirrel": "^7.3.1",
+    "@electron-forge/maker-zip": "^7.3.1",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.3.1",
+    "@electron-forge/plugin-fuses": "^7.2.0",
+    "@electron/fuses": "^1.7.0",
+    "electron": "29.1.6",
+    "axios": "^1.6.8",
+    "dayjs": "^1.11.10"
+  },
+  "keywords": [],
+  "author": {
+    "name": "JustinGZJ",
+    "email": "524919547@qq.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
+    "node-red-contrib-convert": "~1.0.5",
+    "node-red-contrib-iconv": "~0.0.3",
+    "node-red-contrib-mcprotocol": "^1.2.1",
+    "node-red-contrib-modbus": "~5.30.0",
+    "node-red-contrib-mqtt-broker": "~0.2.9",
+    "@flowfuse/node-red-dashboard": "*",
+    "node-red-contrib-iiot-opcua": "^4.1.2",
+    "node-red-contrib-omron-fins": "^0.5.0",
+    "node-red-contrib-s7": "^3.1.0",
+    "node-red-node-serialport": "^2.0.2",
+    "node-red": "^3.1.8"
+  }
+}
